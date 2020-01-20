@@ -16,7 +16,7 @@ class CashRegister
     quant.times do 
       items << title
     end 
-    self.last_transaction = 
+    self.last_transaction = price * quant
   end 
   
   def apply_discount
