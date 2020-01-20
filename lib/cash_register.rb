@@ -6,7 +6,7 @@ class CashRegister
   
   # initialize needs an arg
   def initialize(discount = 10)  
-    @total = 0.0 
+    @total = 0
     @discount = discount
     @items = []
   end 
