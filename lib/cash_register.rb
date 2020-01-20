@@ -5,11 +5,11 @@ class CashRegister
   attr_accessor :total, :discount, :items, :last_transaction
   
   # initialize needs an arg
-  def initialize(discount=0)
+  def initialize(discount = 0)  
     @total = 0
     @discount = discount
     @items = []
-  end
+  end 
   
   def add_item(title, price, quant = 1)
     self.total += price *= quant 
